@@ -1,0 +1,48 @@
+# ==========================================
+# Operating System Files
+# ==========================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# ==========================================
+# Database & Binary Cache Files
+# ==========================================
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+*.db-wal
+*.db-shm
+
+# ==========================================
+# Large Raw Datasets (>50MB GitHub Warning Threshold)
+# Note: Raw datasets can be downloaded from Kaggle:
+# https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
+# ==========================================
+archive/olist.db
+archive/olist_geolocation_dataset.csv
+*.zip
+*.tar.gz
+
+# ==========================================
+# Editor & IDE Configs
+# ==========================================
+.vscode/
+.idea/
+*.swp
+*~
+*.sublime-workspace
+
+# ==========================================
+# Temporary & Log Files
+# ==========================================
+*.log
+*.tmp
+*.bak
+
